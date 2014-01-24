@@ -39,7 +39,18 @@ public class GamePerspective : MonoBehaviour {
     public static float Distance(GamePerspective p1, GamePerspective p2)
     {
         float dx = p1.X - p2.X;
+        if (Mathf.Abs(dx) > InfiniteWorldScrolling.MAX_DISTANCE)
+            dx = InfiniteWorldScrolling.MAX_DISTANCE * 2 - dx;
         float dz = p1.Z - p2.Z;
+        return Mathf.Sqrt(dx * dx + dz * dz);
+    }
+
+    public static float Distance(float x1, float z1, float x2, float z2)
+    {
+        float dx = x2 - x1;
+        if (Mathf.Abs(dx) > InfiniteWorldScrolling.MAX_DISTANCE)
+            dx = InfiniteWorldScrolling.MAX_DISTANCE * 2 - dx;
+        float dz = z2 - z1;
         return Mathf.Sqrt(dx * dx + dz * dz);
     }
 

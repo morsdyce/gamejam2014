@@ -16,6 +16,7 @@ public class InfiniteWorldScrolling : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        print(this);
 	    if(Mathf.Abs(scrollingCenterPersp.X - persp.X) > MAX_DISTANCE)
         {
             if (scrollingCenterPersp.X > persp.X)
