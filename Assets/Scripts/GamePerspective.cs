@@ -21,6 +21,16 @@ public class GamePerspective : MonoBehaviour {
         transform.localPosition = pos;
     }
 
+    public float X
+    {
+        get { return pos.x; }
+    }
+
+    public float Z
+    {
+        get { return pos.z; }
+    }
+
     public void Move(float x, float z)
     {
         SetPosition(pos.x + x * Time.deltaTime, pos.z + z * Time.deltaTime * yRatio);
