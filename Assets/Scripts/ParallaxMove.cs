@@ -9,18 +9,15 @@ public class ParallaxMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        offset -= speed;
-        renderer.material.SetTextureOffset("_MainTex", new Vector2(offset, 0));
 
+        offset += speed * Time.deltaTime;
+        print(offset);
 
-        /*
-        if (offset <= 0.5f)
+        renderer.material.mainTextureOffset = new Vector2(offset, 0);
+
+        if (offset >= 1.5f)
         {
-            offset = Mathf.Min(0.5f, offset + (speed * Time.deltaTime));
-            print(offset);
-            
-            renderer.material.mainTextureOffset = new Vector2(offset, 0);
-        }*/
-	
+            offset = -1.0f;
+        }
 	}
 }

@@ -508,7 +508,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cba8526591eee646900301bf5b1ad99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1349929075}
 --- !u!114 &475834660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,7 +519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d753b75d37741d047b782d25686f29d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollingCenterPersp: {fileID: 1349929075}
 --- !u!114 &475834661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -544,7 +542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3493af1f6dbc6fe4bbcc4c0d35bd16cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  behaviour: 0
+  groupType: 0
   speed: 5
 --- !u!4 &475834663
 Transform:
@@ -632,7 +630,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d753b75d37741d047b782d25686f29d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollingCenterPersp: {fileID: 1349929075}
 --- !u!1 &797366194
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,7 +724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cba8526591eee646900301bf5b1ad99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1349929075}
 --- !u!114 &797366201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -740,7 +736,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d753b75d37741d047b782d25686f29d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollingCenterPersp: {fileID: 1349929075}
 --- !u!95 &797366202
 Animator:
   serializedVersion: 2
@@ -768,10 +763,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09662be96cdcee14191d8056dddb1d47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  playerAttentionDistance: 2
+  speed: 10
+  attentionLoseSpeed: .5
   groupType: 0
   maxGroupOffset: 2
   animationSpeed: 4
+  idleAnim: {fileID: 0}
+  walkAnim: {fileID: 0}
 --- !u!1 &913148106
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,7 +829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3493af1f6dbc6fe4bbcc4c0d35bd16cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  behaviour: 0
+  groupType: 0
   speed: 5
 --- !u!4 &983665415
 Transform:
@@ -854,7 +853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d753b75d37741d047b782d25686f29d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollingCenterPersp: {fileID: 1349929075}
 --- !u!114 &983665417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -878,7 +876,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cba8526591eee646900301bf5b1ad99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1349929075}
 --- !u!1001 &1024864949
 Prefab:
   m_ObjectHideFlags: 0
@@ -961,10 +958,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09662be96cdcee14191d8056dddb1d47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  playerAttentionDistance: 2
+  speed: 10
+  attentionLoseSpeed: .5
   groupType: 0
   maxGroupOffset: 2
   animationSpeed: 4
+  idleAnim: {fileID: 0}
+  walkAnim: {fileID: 0}
 --- !u!114 &1103868980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1037,7 +1038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cba8526591eee646900301bf5b1ad99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1349929075}
 --- !u!114 &1103868985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1050,7 +1050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d753b75d37741d047b782d25686f29d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollingCenterPersp: {fileID: 1349929075}
 --- !u!95 &1103868986
 Animator:
   serializedVersion: 2
@@ -1254,10 +1253,11 @@ GameObject:
   - 61: {fileID: 1349929076}
   - 114: {fileID: 1349929077}
   - 95: {fileID: 1349929078}
+  - 114: {fileID: 1349929080}
   - 114: {fileID: 1349929079}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1309,6 +1309,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71d2aba4fa6987c48ba6b2602e601abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkAnim: {fileID: 7400000, guid: 5bd4993061c93184db374db91ae20deb, type: 2}
+  standAnim: {fileID: 7400000, guid: 3feb0bd59f1136d43b495b28bab62e1d, type: 2}
   speed: 4
 --- !u!114 &1349929075
 MonoBehaviour:
@@ -1373,6 +1375,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b262cccabd002d429ade6f467e23f31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1349929080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: 581b17d54cc835241a40dc7ae024556d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1940234575}
+  m_GameObject: {fileID: 1349929071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3493af1f6dbc6fe4bbcc4c0d35bd16cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groupType: 2
+  speed: 4
 --- !u!1 &1408549562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,7 +1483,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cba8526591eee646900301bf5b1ad99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1349929075}
 --- !u!114 &1408549569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1480,7 +1495,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d753b75d37741d047b782d25686f29d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollingCenterPersp: {fileID: 1349929075}
 --- !u!95 &1408549570
 Animator:
   serializedVersion: 2
@@ -1508,10 +1522,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09662be96cdcee14191d8056dddb1d47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  playerAttentionDistance: 2
+  speed: 10
+  attentionLoseSpeed: .5
   groupType: 0
   maxGroupOffset: 2
   animationSpeed: 4
+  idleAnim: {fileID: 0}
+  walkAnim: {fileID: 0}
 --- !u!1 &1429879556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,7 +1648,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1477593531}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4404161, y: 55.4004364, z: 1.50376797}
+  m_LocalPosition: {x: -3.53472066, y: 55.4004364, z: 1.50376797}
   m_LocalScale: {x: 19.7874985, y: 12.4605522, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1645,7 +1663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 478eb75d89ccc214288a2146c90cb976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: .100000001
+  speed: .200000003
 --- !u!1 &1610334699
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,7 +1758,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cba8526591eee646900301bf5b1ad99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1349929075}
 --- !u!114 &1610334706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1753,7 +1770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d753b75d37741d047b782d25686f29d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollingCenterPersp: {fileID: 1349929075}
 --- !u!95 &1610334707
 Animator:
   serializedVersion: 2
@@ -1781,10 +1797,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09662be96cdcee14191d8056dddb1d47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  playerAttentionDistance: 2
+  speed: 10
+  attentionLoseSpeed: .5
   groupType: 0
   maxGroupOffset: 2
   animationSpeed: 4
+  idleAnim: {fileID: 0}
+  walkAnim: {fileID: 0}
 --- !u!1 &1615119900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,7 +1899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cba8526591eee646900301bf5b1ad99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1349929075}
 --- !u!114 &1615119907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1892,7 +1911,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d753b75d37741d047b782d25686f29d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollingCenterPersp: {fileID: 1349929075}
 --- !u!95 &1615119908
 Animator:
   serializedVersion: 2
@@ -1920,10 +1938,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09662be96cdcee14191d8056dddb1d47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  playerAttentionDistance: 2
+  speed: 10
+  attentionLoseSpeed: .5
   groupType: 0
   maxGroupOffset: 2
   animationSpeed: 4
+  idleAnim: {fileID: 0}
+  walkAnim: {fileID: 0}
 --- !u!1001 &1617189404
 Prefab:
   m_ObjectHideFlags: 0
