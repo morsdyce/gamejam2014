@@ -9,15 +9,12 @@ public class PlayerControls : MonoBehaviour {
     private Animator animator;
     private SpriteRenderer sprRenderer;
 
-    BackgroundCamera backgroundCamera;
-
 	// Use this for initialization
 	void Start () {
 
         persp = GetComponent<GamePerspective>();
         animator = GetComponent<Animator>();
         sprRenderer = GetComponent<SpriteRenderer>();
-        backgroundCamera = GameObject.FindWithTag("BackgroundCamera").GetComponent<BackgroundCamera>();
 	}
 	
 	// Update is called once per frame
@@ -46,7 +43,5 @@ public class PlayerControls : MonoBehaviour {
         }
         
         persp.Move(dx * speed, dz * speed);
-
-        backgroundCamera.Move(dx * speed);
 	}
 }

@@ -4,8 +4,6 @@ using System.Collections;
 public class CameraFollowScript : MonoBehaviour {
 
     private Vector3 camPos;
-    
-    BackgroundCamera backgroundCamera;
 
     public Transform target;
     public float lerpAmount = 0.25f;
@@ -38,11 +36,5 @@ public class CameraFollowScript : MonoBehaviour {
             camPos.y = 0;
 
         transform.position = camPos;
-
-        
-
-        //var backgroundCamPosition = new Vector3(target.position.x - moveZoneX, 51.82983f, 0);
-
-
 	}
 }
