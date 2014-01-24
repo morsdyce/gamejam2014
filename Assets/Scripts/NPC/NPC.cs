@@ -27,8 +27,19 @@ public class NPC : MonoBehaviour {
         persp = GetComponent<GamePerspective>();
         anim = GetComponent<Animator>();
 
+       
+
         anim.speed = animationSpeed;
-        anim.Play("businessmanWalk");
+
+        if (groupType == GroupType.Creative)
+        {
+            anim.Play("CreativeWalk");
+        }
+        else
+        {
+            anim.Play("businessmanWalk");
+        }
+        
 
         FindGroup();
     }

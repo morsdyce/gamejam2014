@@ -23,10 +23,11 @@ public class PlayerControls : MonoBehaviour {
         float dz = Input.GetAxis("Vertical");
 
         if (dx == 0 && dz == 0)
-            animator.speed = 0;
+        {
+            animator.Play("PlayerStand");
+        }
         else
         {
-            animator.speed = 1;
             animator.Play("PlayerWalk");
             if (dx > 0)
             {
