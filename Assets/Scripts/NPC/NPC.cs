@@ -10,12 +10,14 @@ public class NPC : MonoBehaviour {
     public GroupType groupType;
 
     public float maxGroupOffset = 2;
+    public float animationSpeed = 1;
 
     float attractionAmount = 0;
     NPCGroup parentGroup;
     float groupOffsetX;
     float groupOffsetZ;
     GamePerspective persp;
+    Animator anim;
 
     Vector2 lastTarget;
 
@@ -23,6 +25,10 @@ public class NPC : MonoBehaviour {
     {
         //parentGroup = (NPCGroup) gameObject.transform.parent.gameObject;
         persp = GetComponent<GamePerspective>();
+        anim = GetComponent<Animator>();
+
+        anim.speed = animationSpeed;
+        anim.Play("businessmanWalk");
 
         FindGroup();
     }

@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: ac8c61e2b850a044ebf1c5334ad4b654
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: creative_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1835
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1835
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1835
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_3
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1835
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_4
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1835
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_5
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1835
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_6
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1835
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1468
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_8
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1468
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_9
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1468
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_10
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1468
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_11
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1468
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_12
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1468
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_13
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1468
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1101
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1101
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_16
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1101
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_17
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1101
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_18
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1101
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_19
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1101
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_20
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1101
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 734
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_22
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 734
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_23
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 734
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_24
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 734
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_25
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 734
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_26
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 734
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_27
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 734
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 367
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_29
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 367
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_30
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 367
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_31
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 367
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_32
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 367
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_33
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 367
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_34
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 367
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_36
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_37
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 0
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: creative_38
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 214
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
