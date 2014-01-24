@@ -4,12 +4,12 @@ using System.Collections;
 public class PlayerControls : MonoBehaviour {
 
     public float speed = 5;
-    private EntityMove movement;
+    private GamePerspective persp;
 
 	// Use this for initialization
 	void Start () {
 
-        movement = GetComponent<EntityMove>();
+        persp = GetComponent<GamePerspective>();
 	
 	}
 	
@@ -18,6 +18,6 @@ public class PlayerControls : MonoBehaviour {
         float dx = Input.GetAxis("Horizontal");
         float dz = Input.GetAxis("Vertical");
 
-        movement.Move(dx * speed, dz * speed);
+        persp.Move(dx * speed, dz * speed);
 	}
 }
