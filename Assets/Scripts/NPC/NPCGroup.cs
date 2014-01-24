@@ -5,7 +5,7 @@ using System.Collections.Generic;
 [RequireComponent(typeof(GamePerspective))]
 public class NPCGroup : MonoBehaviour {
 
-    public GroupType behaviour;
+    public GroupType groupType;
     public float speed = 5;
 
     private GamePerspective persp;
@@ -17,7 +17,10 @@ public class NPCGroup : MonoBehaviour {
 
     void Update()
     {
-        persp.Move(speed, 0);
+        if(groupType != GroupType.Player)
+        {
+            persp.Move(speed, 0);
+        }   
     }
 
     public GamePerspective gamePerspective

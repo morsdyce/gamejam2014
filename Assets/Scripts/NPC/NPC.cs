@@ -6,40 +6,39 @@ public class NPC : MonoBehaviour {
 
     private const float MIN_MOVE_DISTANCE = 1f;
 
+    public float playerAttentionDistance = 2;
     public float speed = 10;
+    public float attentionLoseSpeed = 0.5f;
     public GroupType groupType;
+    private GamePerspective playerPersp;
 
     public float maxGroupOffset = 2;
     public float animationSpeed = 1;
 
-    float attractionAmount = 0;
+    public AnimationClip idleAnim;
+    public AnimationClip walkAnim;
+
     NPCGroup parentGroup;
     float groupOffsetX;
     float groupOffsetZ;
     GamePerspective persp;
     Animator anim;
+    float attentionLost;
 
     Vector2 lastTarget;
 
     void Start()
     {
-        //parentGroup = (NPCGroup) gameObject.transform.parent.gameObject;
+        playerPersp = GameObject.FindGameObjectWithTag("Player").GetComponent<GamePerspective>();
         persp = GetComponent<GamePerspective>();
         anim = GetComponent<Animator>();
 
-       
-
         anim.speed = animationSpeed;
 
-        if (groupType == GroupType.Creative)
-        {
-            anim.Play("CreativeWalk");
-        }
-        else
-        {
-            anim.Play("businessmanWalk");
-        }
+        anim.Play(walkAnim.name);
         
+
+        attentionLost = 0;
 
         FindGroup();
     }
@@ -52,7 +51,7 @@ public class NPC : MonoBehaviour {
         int safetyTest = 0;
         while(foundGroup == null)
         {
-            if (groups[i].behaviour == groupType)
+            if (groups[i].groupType == groupType)
                 foundGroup = groups[i];
             i++;
             safetyTest++;
@@ -61,53 +60,76 @@ public class NPC : MonoBehaviour {
             if (safetyTest >= groups.Length + 2)
                 throw new UnityException("Didn't find group");
         }
-        parentGroup = foundGroup;
-        groupOffsetX = Random.RandomRange(-maxGroupOffset, maxGroupOffset);
-        groupOffsetZ = Random.RandomRange(-maxGroupOffset, maxGroupOffset);
-    }
-
-    public void Move(Vector2 target)
-    {
-        persp.Move(target.x, target.y);
-    }
-
-    public void React()
-    {
-
-    }
-
-    public void setTarget(Vector2 target)
-    {
-
-    }
-
-    public Vector2 getTarget()
-    {
-        lastTarget.x += 3;
-        return lastTarget;
+        SetParentGroup(foundGroup);
     }
 
     private static Vector2 _vec = new Vector2();
     void Update()
     {
         if (GetDistanceFromGroup() > MIN_MOVE_DISTANCE)
-       {
+        {
+            anim.Play(walkAnim.name);
            _vec.x = parentGroup.gamePerspective.X + groupOffsetX - persp.X;
            if (Mathf.Abs(_vec.x) > InfiniteWorldScrolling.MAX_DISTANCE)
            {
-               //_vec.x = //-(InfiniteWorldScrolling.MAX_DISTANCE - _vec.x);
                _vec.x = InfiniteWorldScrolling.MAX_DISTANCE * 2 -_vec.x;
             }
+           if (_vec.x > 0)
+           {
+               Vector3 scale = transform.localScale;
+               scale.x = Mathf.Abs(transform.localScale.x);
+               transform.localScale = scale;
+           }
+           else if (_vec.x < 0)
+           {
+               Vector3 scale = transform.localScale;
+               scale.x = -Mathf.Abs(transform.localScale.x);
+               transform.localScale = scale;
+           }
+
            _vec.y = parentGroup.gamePerspective.Z + groupOffsetZ - persp.Z;
            _vec.Normalize();
 
-           //print(_vec);
             if(GetDistanceFromGroup() > MIN_MOVE_DISTANCE * 2)
-                persp.Move(_vec.x * speed, _vec.y * speed);
+                persp.Move(_vec.x * speed * (1 - attentionLost), _vec.y * speed * (1 - attentionLost));
             else
-                persp.Move(_vec.x * parentGroup.speed, _vec.y * speed);
-       }
+                persp.Move(_vec.x * parentGroup.speed * (1 - attentionLost), _vec.y * parentGroup.speed * (1 - attentionLost));
+        }
+        else if(parentGroup.groupType == GroupType.Player)
+        {
+            anim.Play(idleAnim.name);
+        }
+
+        if(parentGroup.groupType != GroupType.Player && GamePerspective.Distance(persp, playerPersp) <= playerAttentionDistance)
+        {
+            attentionLost += attentionLoseSpeed * Time.deltaTime;
+            if (attentionLost > 1)
+                GoToPlayerGroup();
+
+            Vector3 scale = transform.localScale;
+            scale.x = Mathf.Abs(transform.localScale.x);
+            if (playerPersp.X < persp.X)
+                scale.x *= -1;
+            transform.localScale = scale;
+        }
+        else
+        {
+            attentionLost = 0;
+        }
         
+    }
+
+    private void GoToPlayerGroup()
+    {
+        attentionLost = 0;
+        SetParentGroup(playerPersp.GetComponent<NPCGroup>());
+    }
+
+    private void SetParentGroup(NPCGroup group)
+    {
+        parentGroup = group;
+        groupOffsetX = Random.Range(-maxGroupOffset, maxGroupOffset);
+        groupOffsetZ = Random.Range(-maxGroupOffset, maxGroupOffset);
     }
 
     private float GetDistanceFromGroup()

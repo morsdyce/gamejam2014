@@ -4,6 +4,9 @@ using System.Collections;
 [RequireComponent (typeof(GamePerspective))]
 public class PlayerControls : MonoBehaviour {
 
+    public AnimationClip walkAnim;
+    public AnimationClip standAnim;
+
     public float speed = 4;
     private GamePerspective persp;
     private Animator animator;
@@ -24,11 +27,11 @@ public class PlayerControls : MonoBehaviour {
 
         if (dx == 0 && dz == 0)
         {
-            animator.Play("PlayerStand");
+            animator.Play(standAnim.name);
         }
         else
         {
-            animator.Play("PlayerWalk");
+            animator.Play(walkAnim.name);
             if (dx > 0)
             {
                 Vector3 scale = transform.localScale;
