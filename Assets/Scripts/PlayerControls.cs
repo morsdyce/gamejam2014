@@ -7,10 +7,13 @@ public class PlayerControls : MonoBehaviour {
     public float speed = 5;
     private GamePerspective persp;
 
+    BackgroundCamera backgroundCamera;
+
 	// Use this for initialization
 	void Start () {
 
         persp = GetComponent<GamePerspective>();
+        backgroundCamera = GameObject.FindWithTag("BackgroundCamera").GetComponent<BackgroundCamera>();
 	
 	}
 	
@@ -20,5 +23,7 @@ public class PlayerControls : MonoBehaviour {
         float dz = Input.GetAxis("Vertical");
 
         persp.Move(dx * speed, dz * speed);
+
+        backgroundCamera.Move(dx * speed);
 	}
 }
