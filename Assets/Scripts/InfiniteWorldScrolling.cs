@@ -6,11 +6,12 @@ public class InfiniteWorldScrolling : MonoBehaviour {
 
     public const float MAX_DISTANCE = 20;
 
-    public GamePerspective scrollingCenterPersp;
+    private GamePerspective scrollingCenterPersp;
     private GamePerspective persp;
 
 	// Use this for initialization
 	void Start () {
+        scrollingCenterPersp = GameObject.FindGameObjectWithTag("Player").GetComponent<GamePerspective>();
         persp = GetComponent<GamePerspective>();
 	}
 	
