@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent (typeof(GamePerspective))]
 public class PlayerControls : MonoBehaviour {
 
     public float speed = 5;
