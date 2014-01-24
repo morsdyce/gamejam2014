@@ -35,4 +35,12 @@ public class GamePerspective : MonoBehaviour {
     {
         SetPosition(pos.x + x * Time.deltaTime, pos.z + z * Time.deltaTime * yRatio);
     }
+
+    public static float Distance(GamePerspective p1, GamePerspective p2)
+    {
+        float dx = p1.X - p2.X;
+        float dz = p1.Z - p2.Z;
+        return Mathf.Sqrt(dx * dx + dz * dz);
+    }
+
 }
