@@ -1,35 +1,36 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class NPCGroup : MonoBehaviour {
 
     public GroupType behaviour;
     public MoveType movementType;
+    public GameObject npcPrefab;
 
-    public NPC[] npcList;
+    public int NpcCount;
 
-    public int minX;
-    public int maxX;
-    public int minZ;
-    public int maxZ;
-    public Vector2 offset;
-
-    Vector2 currentTarget;
-    bool reachedTarget;
-
-    float changeTargetTime;
+    public float offsetAngle = 1.5f;
+    int startAngle = 0;
+    private int angleIncrease = 0;
+    public bool isGoingRight = true;
+    private List<NPC> npcList;
 
     void Start()
     {
+        npcList = new List<NPC>();
 
-        changeTargetTime = 0;
-        
-        if (npcList.Length == 0)
+        angleIncrease = 360 / NpcCount;
+        for (var i = 0; i < NpcCount; i++)
         {
-            throw new MissingReferenceException("The group must have npcs attaached");
+            var pos = GetAngle(transform.position, offsetAngle);
+            // make the object face the center
+            var rot = Quaternion.FromToRotation(Vector3.forward, transform.position - pos);
+            var npc = (GameObject) Instantiate(npcPrefab, pos, Quaternion.identity);
+            var npcScript = npc.GetComponent<NPC>();
+            Debug.Log(npc);
+            npcList.Add(npcScript);
         }
-
-        currentTarget = GetTarget();
     }
 
     void Update()
@@ -47,59 +48,31 @@ public class NPCGroup : MonoBehaviour {
 
     private void MoveToTarget()
     {
-        Vector2 target;
-        if (reachedTarget)
-        {
-            if (Time.time >= changeTargetTime)
-            {
-
-                reachedTarget = false;
-                target = GetTarget();
-                MoveNPCs(target);
-
-                changeTargetTime = Time.time + 2;
-            }
-        }
-        else
-        {
-            target = currentTarget;
-            Debug.Log("target");
-            Debug.Log(target);
-            
-            MoveNPCs(target);
-        }
-    }
-
-    private Vector3 MoveNPCs(Vector3 target)
-    {
-        for (int i = 0, limit = npcList.Length; i < limit; i++)
-        {
-            var npc = npcList[i];
-            //var moveAmount = target - npc.transform.position + (offset * i);
-            //npc.Move(target + (offset * i));
-            npc.Move(Vector3.MoveTowards(npc.transform.position, target, 1f));
-            if (npc.transform.position.Equals(target))
-            {
-                //Debug.Log("Reached Target");
-                reachedTarget = true;
-            }
-        }
-        return target;
-    }
-
-    public void SetTarget(Vector3 target)
-    {
-        currentTarget = target;
-    }
-
-    public Vector3 GetTarget()
-    {
-        var target = new Vector3(Random.Range(minX, maxX), transform.position.y);
-        Debug.Log("new Target");
-        Debug.Log(target);
-        return target;
+        MoveNPCs();
         
     }
+
+    void MoveNPCs()
+    {
+        for (int i = 0, limit = npcList.Count; i < limit; i++)
+        {
+            var npc = npcList[i];
+            var newPosition = npc.transform.position + new Vector3(1,0,0);
+            npc.Move(newPosition);
+        }
+    }
+
+    Vector3 GetAngle(Vector3 center, float radius) {
+    // create random angle between 0 to 360 degrees
+    startAngle += angleIncrease;
+    var pos = new Vector3();
+    pos.x = center.x + radius * Mathf.Sin(startAngle * Mathf.Deg2Rad);
+    pos.y = center.y + radius * Mathf.Cos(startAngle * Mathf.Deg2Rad);
+    pos.z = center.z;
+    return pos;
+}
+
+  
 
 
 
