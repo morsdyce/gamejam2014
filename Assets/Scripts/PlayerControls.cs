@@ -3,17 +3,21 @@ using System.Collections;
 
 public class PlayerControls : MonoBehaviour {
 
-    EntityMove move;
+    public float speed = 5;
+    private EntityMove movement;
 
 	// Use this for initialization
 	void Start () {
 
-        move = GetComponent<EntityMove>();
+        movement = GetComponent<EntityMove>();
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+        float dx = Input.GetAxis("Horizontal");
+        float dz = Input.GetAxis("Vertical");
+
+        movement.Move(dx * speed, dz * speed);
 	}
 }
