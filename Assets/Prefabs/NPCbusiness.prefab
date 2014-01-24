@@ -111,6 +111,8 @@ MonoBehaviour:
   animationSpeed: 4
   idleAnim: {fileID: 7400000, guid: 173f988333d0c09449b1204e1b397829, type: 2}
   walkAnim: {fileID: 7400000, guid: 4ef075c038782434784a012b589b7efc, type: 2}
+  maxOffsetChangeTime: 10
+  minOffsetChangeTime: 3
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

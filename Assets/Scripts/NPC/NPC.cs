@@ -27,6 +27,10 @@ public class NPC : MonoBehaviour {
 
     Vector2 lastTarget;
 
+    public float maxOffsetChangeTime = 10;
+    public float minOffsetChangeTime = 3;
+    float timeToOffsetChange;
+
     void Start()
     {
         playerPersp = GameObject.FindGameObjectWithTag("Player").GetComponent<GamePerspective>();
@@ -37,7 +41,6 @@ public class NPC : MonoBehaviour {
 
         anim.Play(walkAnim.name);
         
-
         attentionLost = 0;
 
         FindGroup();
@@ -66,6 +69,10 @@ public class NPC : MonoBehaviour {
     private static Vector2 _vec = new Vector2();
     void Update()
     {
+        timeToOffsetChange -= Time.deltaTime;
+        if (timeToOffsetChange <= 0)
+            SetParentGroup(parentGroup);
+
         if (GetDistanceFromGroup() > MIN_MOVE_DISTANCE)
         {
             anim.Play(walkAnim.name);
@@ -130,6 +137,7 @@ public class NPC : MonoBehaviour {
         parentGroup = group;
         groupOffsetX = Random.Range(-maxGroupOffset, maxGroupOffset);
         groupOffsetZ = Random.Range(-maxGroupOffset, maxGroupOffset);
+        timeToOffsetChange = Random.Range(minOffsetChangeTime, maxOffsetChangeTime);
     }
 
     private float GetDistanceFromGroup()

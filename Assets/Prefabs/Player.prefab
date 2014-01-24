@@ -108,6 +108,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groupType: 2
   speed: 4
+  maxChangeZTime: 0
+  minChangeZTime: 0
+  maxChangeSpeedTime: 0
+  minChangeSpeedTime: 0
+  maxSpeed: 4
+  minSpeed: 4
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
