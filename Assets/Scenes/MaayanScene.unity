@@ -85,7 +85,6 @@ GameObject:
   - 20: {fileID: 241985912}
   - 124: {fileID: 241985911}
   - 92: {fileID: 241985910}
-  - 81: {fileID: 241985909}
   - 114: {fileID: 241985908}
   m_Layer: 0
   m_Name: Background Camera
@@ -106,14 +105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a241478cf7e19844a3beb94e5f4d8fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!81 &241985909
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 8100000, guid: cce0a1206eefb79439fb26b8b627b85e,
-    type: 2}
-  m_PrefabInternal: {fileID: 1617189404}
-  m_GameObject: {fileID: 241985907}
-  m_Enabled: 1
 --- !u!92 &241985910
 Behaviour:
   m_ObjectHideFlags: 0
@@ -280,7 +271,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 3.6099999
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -1827,7 +1818,8 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8100000, guid: cce0a1206eefb79439fb26b8b627b85e, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: cce0a1206eefb79439fb26b8b627b85e, type: 2}
   m_RootGameObject: {fileID: 241985907}
   m_IsPrefabParent: 0
