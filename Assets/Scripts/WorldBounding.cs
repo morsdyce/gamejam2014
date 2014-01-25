@@ -7,7 +7,7 @@ public class WorldBounding : MonoBehaviour {
     private GamePerspective persp;
 
     public const float MIN_Z = -3.7f;
-    public const float MAX_Z = -0.8f;
+    public const float MAX_Z = -0.4f;
 
     void Start()
     {

@@ -5,7 +5,7 @@ public class CameraFollowScript : MonoBehaviour {
 
     private Vector3 camPos;
 
-    public Transform target;
+    private Transform target;
     public float lerpAmount = 0.25f;
     public float moveZoneX = 3.0f;
     public float moveZoneY = 0.5f;
@@ -13,7 +13,7 @@ public class CameraFollowScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         camPos = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-        
+        target = GameObject.FindGameObjectWithTag("Player").transform;
 	}
 	
 	// Update is called once per frame
