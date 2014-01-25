@@ -71,7 +71,7 @@ MonoBehaviour:
   minSpawnTime: 5
   maxSpawnTime: 20
   maxSpawndObjects: 9999999
-  creativeInfluence: -2
+  creativeInfluence: -3
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
