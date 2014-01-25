@@ -7,6 +7,14 @@ public class SquidMove : MonoBehaviour {
     bool canMove = false;
     float startMoveTime;
 
+    GamePerspective persp;
+
+    void Start()
+    {
+        persp = GetComponent<GamePerspective>();
+        persp.Move(0, 0, Random.Range(0, 10));
+    }
+
     void StopSquid()
     {
         canMove = false;
@@ -19,9 +27,21 @@ public class SquidMove : MonoBehaviour {
         startMoveTime = Time.time;
     }
 
+
     void Update()
     {
         if (canMove)
-            transform.position = transform.position + Vector3.right * Time.deltaTime * (Time.time - startMoveTime) * (Time.time - startMoveTime) * 3;
+        {
+            persp.Move( -easeFunc(Time.time - startMoveTime, 0, 30, 3f), 0);
+        }
     }
+
+    float easeFunc(float t, float b, float c, float d)
+    {
+        float s = 1.70158f;
+        if ((t /= d / 2) < 1)
+            return c / 2 * (t * t * (((s *= (1.525f)) + 1) * t - s)) + b;
+        return c / 2 * ((t -= 2) * t * (((s *= (1.525f)) + 1) * t + s) + 2) + b;
+    }
+
 }
