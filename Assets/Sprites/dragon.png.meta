@@ -1,0 +1,859 @@
+fileFormatVersion: 2
+guid: 7609c8fdae5c6964da906ccf3e91e4bc
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: dragon_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3031
+        width: 502
+        height: 339
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 3031
+        width: 502
+        height: 338
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_2
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 3031
+        width: 502
+        height: 339
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_3
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 3031
+        width: 503
+        height: 339
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_4
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 3031
+        width: 502
+        height: 339
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_5
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 3031
+        width: 503
+        height: 339
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_6
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 3031
+        width: 502
+        height: 338
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_7
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 3031
+        width: 502
+        height: 339
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_8
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 3031
+        width: 503
+        height: 340
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_9
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 3031
+        width: 503
+        height: 341
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2652
+        width: 502
+        height: 342
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_11
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 2652
+        width: 504
+        height: 344
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_12
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 2652
+        width: 504
+        height: 346
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_13
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 2652
+        width: 507
+        height: 347
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_14
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 2652
+        width: 506
+        height: 350
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_15
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 2652
+        width: 507
+        height: 351
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_16
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 2652
+        width: 510
+        height: 354
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_17
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 2652
+        width: 512
+        height: 357
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_18
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 2652
+        width: 514
+        height: 359
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_19
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 2652
+        width: 517
+        height: 362
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2272
+        width: 521
+        height: 367
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_21
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 2272
+        width: 527
+        height: 370
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_22
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 2272
+        width: 531
+        height: 374
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_23
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 2272
+        width: 534
+        height: 375
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_24
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 2272
+        width: 535
+        height: 378
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_25
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 2272
+        width: 536
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_26
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 2272
+        width: 536
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_27
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 2272
+        width: 537
+        height: 380
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_28
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 2272
+        width: 538
+        height: 380
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_29
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 2272
+        width: 538
+        height: 380
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1894
+        width: 536
+        height: 378
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_31
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1894
+        width: 537
+        height: 378
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_32
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1894
+        width: 537
+        height: 378
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_33
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1894
+        width: 538
+        height: 378
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_34
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1894
+        width: 536
+        height: 378
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_35
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 1894
+        width: 533
+        height: 376
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_36
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1894
+        width: 530
+        height: 373
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_37
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 1894
+        width: 522
+        height: 369
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_38
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 1894
+        width: 512
+        height: 363
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_39
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 1894
+        width: 502
+        height: 356
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1514
+        width: 492
+        height: 344
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_41
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1514
+        width: 485
+        height: 337
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_42
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1517
+        width: 479
+        height: 330
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_43
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1520
+        width: 475
+        height: 324
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_44
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1523
+        width: 470
+        height: 318
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_45
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 1525
+        width: 468
+        height: 314
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_46
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1528
+        width: 468
+        height: 310
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_47
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 1528
+        width: 466
+        height: 309
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_48
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 1529
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_49
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 1529
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1150
+        width: 465
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_51
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1150
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_52
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1150
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_53
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1150
+        width: 467
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_54
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1150
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_55
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 1150
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_56
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 1150
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_57
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 1150
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_58
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 1150
+        width: 467
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_59
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 1150
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 771
+        width: 465
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_61
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 771
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_62
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 771
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_63
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 771
+        width: 467
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_64
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 771
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_65
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 771
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_66
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 771
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_67
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 771
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_68
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 771
+        width: 467
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_69
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 771
+        width: 466
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392
+        width: 465
+        height: 307
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_71
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 392
+        width: 466
+        height: 307
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_72
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 392
+        width: 466
+        height: 307
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_73
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 392
+        width: 467
+        height: 307
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_74
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 392
+        width: 466
+        height: 307
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_75
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 392
+        width: 466
+        height: 307
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_76
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 392
+        width: 466
+        height: 307
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_77
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 391
+        width: 467
+        height: 308
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_78
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 390
+        width: 468
+        height: 309
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_79
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 388
+        width: 468
+        height: 311
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 469
+        height: 312
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_81
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 5
+        width: 473
+        height: 313
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_82
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 2
+        width: 476
+        height: 316
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_83
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 0
+        width: 481
+        height: 320
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_84
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 0
+        width: 486
+        height: 325
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_85
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 0
+        width: 491
+        height: 330
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_86
+      rect:
+        serializedVersion: 2
+        x: 3239
+        y: 0
+        width: 495
+        height: 333
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_87
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 0
+        width: 500
+        height: 336
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_88
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 0
+        width: 503
+        height: 337
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_89
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 0
+        width: 502
+        height: 337
+      alignment: 7
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: c8cee935738324a4b8fde947ba66ea33
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: dragon_apear_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1895
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_1
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1895
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_2
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1895
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_3
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1895
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_4
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1895
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_5
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1895
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_6
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1895
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1516
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1516
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1516
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1516
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_11
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1516
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_12
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1516
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_13
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1516
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1137
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_15
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1137
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_16
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1137
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_17
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1137
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_18
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1137
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_19
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1137
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_20
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 1137
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 758
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 758
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_23
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 758
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_24
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 758
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_25
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 758
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_26
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 758
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_27
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 758
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 379
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_29
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 379
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_30
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 379
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_31
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 379
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_32
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 379
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_33
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 379
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_34
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 379
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_36
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_37
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_38
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_39
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_40
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: dragon_apear_41
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 540
+        height: 379
+      alignment: 7
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
