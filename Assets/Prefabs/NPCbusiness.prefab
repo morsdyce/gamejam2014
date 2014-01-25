@@ -113,6 +113,8 @@ MonoBehaviour:
   walkAnim: {fileID: 7400000, guid: 4ef075c038782434784a012b589b7efc, type: 2}
   maxOffsetChangeTime: 10
   minOffsetChangeTime: 3
+  maxGroupChangeTime: 30
+  minGroupChangeTime: 8
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

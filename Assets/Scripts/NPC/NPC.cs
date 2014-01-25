@@ -31,6 +31,10 @@ public class NPC : MonoBehaviour {
     public float minOffsetChangeTime = 3;
     float timeToOffsetChange;
 
+    public float maxGroupChangeTime = 30;
+    public float minGroupChangeTime = 8;
+    float timeToGroupChange;
+
     void Start()
     {
         playerPersp = GameObject.FindGameObjectWithTag("Player").GetComponent<GamePerspective>();
@@ -72,6 +76,14 @@ public class NPC : MonoBehaviour {
         timeToOffsetChange -= Time.deltaTime;
         if (timeToOffsetChange <= 0)
             SetParentGroup(parentGroup);
+
+        if(parentGroup.groupType != GroupType.Player)
+        {
+            timeToGroupChange -= Time.deltaTime;
+            print(timeToGroupChange);
+            if (timeToGroupChange <= 0)
+                FindGroup();
+        }
 
         if (GetDistanceFromGroup() > MIN_MOVE_DISTANCE)
         {
@@ -134,6 +146,8 @@ public class NPC : MonoBehaviour {
 
     private void SetParentGroup(NPCGroup group)
     {
+        if (parentGroup != group || timeToGroupChange <= 0)
+            timeToGroupChange = Random.Range(minGroupChangeTime, maxGroupChangeTime);
         parentGroup = group;
         groupOffsetX = Random.Range(-maxGroupOffset, maxGroupOffset);
         groupOffsetZ = Random.Range(-maxGroupOffset, maxGroupOffset);
