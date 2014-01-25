@@ -74,6 +74,36 @@ State:
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
+--- !u!1102 &110210812
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Businessman2Walk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: 2884c0dc064588648b2f65000c3a98ac, type: 2}
+  m_ParentStateMachine: {fileID: 110700000}
+  m_Position: {x: 261, y: 279, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
+--- !u!1102 &110235951
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Businessman2Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: ff929a9c454da514cb21eb7932503a2f, type: 2}
+  m_ParentStateMachine: {fileID: 110700000}
+  m_Position: {x: 331, y: 409, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
 --- !u!1102 &110243708
 State:
   m_ObjectHideFlags: 3
@@ -104,6 +134,36 @@ State:
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
+--- !u!1102 &110250136
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Creative2Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: 346804cb786bb1840b787d4781732104, type: 2}
+  m_ParentStateMachine: {fileID: 110700000}
+  m_Position: {x: 366, y: 474, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
+--- !u!1102 &110284039
+State:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Creative2Walk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Motions:
+  - {fileID: 7400000, guid: 1bfbd5ef9d0495248a5ede0e4e570ea5, type: 2}
+  m_ParentStateMachine: {fileID: 110700000}
+  m_Position: {x: 296, y: 344, z: 0}
+  m_IKOnFeet: 0
+  m_Mirror: 0
+  m_Tag: 
 --- !u!1107 &110700000
 StateMachine:
   serializedVersion: 2
@@ -117,6 +177,10 @@ StateMachine:
   - {fileID: 110243708}
   - {fileID: 110202356}
   - {fileID: 110248463}
+  - {fileID: 110210812}
+  - {fileID: 110284039}
+  - {fileID: 110235951}
+  - {fileID: 110250136}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
