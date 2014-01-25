@@ -366,6 +366,46 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!1001 &267559228
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: c1a60beea169ba540b7109c19e93dbd8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.46957397
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c1a60beea169ba540b7109c19e93dbd8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -.609310746
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c1a60beea169ba540b7109c19e93dbd8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c1a60beea169ba540b7109c19e93dbd8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c1a60beea169ba540b7109c19e93dbd8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c1a60beea169ba540b7109c19e93dbd8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c1a60beea169ba540b7109c19e93dbd8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c1a60beea169ba540b7109c19e93dbd8, type: 2}
+  m_RootGameObject: {fileID: 887637261}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &340826107
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,14 +787,16 @@ Transform:
 --- !u!1 &887637261
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 100000, guid: c1a60beea169ba540b7109c19e93dbd8, type: 2}
+  m_PrefabInternal: {fileID: 267559228}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 887637263}
   - 212: {fileID: 887637262}
+  - 95: {fileID: 887637265}
+  - 114: {fileID: 887637264}
   m_Layer: 0
-  m_Name: dragon_apear_0
+  m_Name: Dragon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -763,8 +805,9 @@ GameObject:
 --- !u!212 &887637262
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 21200000, guid: c1a60beea169ba540b7109c19e93dbd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 267559228}
   m_GameObject: {fileID: 887637261}
   m_Enabled: 1
   m_CastShadows: 0
@@ -786,14 +829,41 @@ SpriteRenderer:
 --- !u!4 &887637263
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 400000, guid: c1a60beea169ba540b7109c19e93dbd8, type: 2}
+  m_PrefabInternal: {fileID: 267559228}
   m_GameObject: {fileID: 887637261}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.00447655, y: -1.18243384, z: 0}
+  m_LocalPosition: {x: -1.46957397, y: -.609310746, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &887637264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: c1a60beea169ba540b7109c19e93dbd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 267559228}
+  m_GameObject: {fileID: 887637261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13d6d5551b381fc4c816d5e5cddd3fc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &887637265
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 9500000, guid: c1a60beea169ba540b7109c19e93dbd8,
+    type: 2}
+  m_PrefabInternal: {fileID: 267559228}
+  m_GameObject: {fileID: 887637261}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9c5b0fbd81d30e54ab7c92b5b5b9ff4a, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 0
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
 --- !u!1 &913148106
 GameObject:
   m_ObjectHideFlags: 0
