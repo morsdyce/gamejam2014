@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: 07028f394bd4d1341a14fcf9cab13db4
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: buisiness2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1775
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1775
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1775
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1775
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1775
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_5
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1775
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_6
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1775
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1420
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1420
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1420
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_10
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1420
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_11
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1420
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_12
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1420
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_13
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1420
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1065
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_15
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1065
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1065
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_17
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1065
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1065
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_19
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1065
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_20
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1065
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 710
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_22
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 710
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 710
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_24
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 710
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 710
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_26
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 710
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_27
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 710
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_29
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 355
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_30
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 355
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_31
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 355
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_32
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 355
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_33
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 355
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_34
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 355
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_36
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: buisiness2_38
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 125
+        height: 355
+      alignment: 7
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

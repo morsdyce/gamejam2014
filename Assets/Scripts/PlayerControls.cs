@@ -10,14 +10,12 @@ public class PlayerControls : MonoBehaviour {
     public float speed = 4;
     private GamePerspective persp;
     private Animator animator;
-    private SpriteRenderer sprRenderer;
 
 	// Use this for initialization
 	void Start () {
 
         persp = GetComponent<GamePerspective>();
         animator = GetComponent<Animator>();
-        sprRenderer = GetComponent<SpriteRenderer>();
 	}
 	
 	// Update is called once per frame

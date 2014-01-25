@@ -12,11 +12,11 @@ public class GamePerspective : MonoBehaviour {
         SetPosition(transform.localPosition.x, transform.localPosition.y);
     }
 
-    public void SetPosition(float x, float z)
+    public void SetPosition(float x, float z, float height = 0)
     {
         pos.x = x;
         pos.z = z;
-        pos.y = pos.z;
+        pos.y = pos.z + height;
 
         transform.localPosition = pos;
     }
@@ -31,9 +31,14 @@ public class GamePerspective : MonoBehaviour {
         get { return pos.z; }
     }
 
-    public void Move(float x, float z)
+    public float height
     {
-        SetPosition(pos.x + x * Time.deltaTime, pos.z + z * Time.deltaTime * yRatio);
+        get { return pos.y; }
+    }
+
+    public void Move(float x, float z, float height = 0)
+    {
+        SetPosition(pos.x + x * Time.deltaTime, pos.z + z * Time.deltaTime * yRatio + height * Time.deltaTime);
     }
 
     public static float Distance(GamePerspective p1, GamePerspective p2)
