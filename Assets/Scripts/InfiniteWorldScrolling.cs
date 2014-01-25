@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent(typeof(GamePerspective))]
 public class InfiniteWorldScrolling : MonoBehaviour {
 
-    public const float MAX_DISTANCE = 20;
+    public const float MAX_DISTANCE = 50;
 
     private GamePerspective scrollingCenterPersp;
     private GamePerspective persp;
