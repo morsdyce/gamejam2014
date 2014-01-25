@@ -35,6 +35,8 @@ public class NPC : MonoBehaviour {
     public float minGroupChangeTime = 8;
     float timeToGroupChange;
 
+    private Stats stats;
+
     void Start()
     {
         playerPersp = GameObject.FindGameObjectWithTag("Player").GetComponent<GamePerspective>();
@@ -46,6 +48,8 @@ public class NPC : MonoBehaviour {
         anim.Play(walkAnim.name);
         
         attentionLost = 0;
+
+        stats = FindObjectOfType<Stats>();
 
         FindGroup();
     }
@@ -77,13 +81,17 @@ public class NPC : MonoBehaviour {
         if (timeToOffsetChange <= 0)
             SetParentGroup(parentGroup);
 
-        if(parentGroup.groupType != GroupType.Player)
-        {
+        if (parentGroup.groupType != GroupType.Player)
             timeToGroupChange -= Time.deltaTime;
-            print(timeToGroupChange);
-            if (timeToGroupChange <= 0)
-                FindGroup();
+        else
+        {
+            float d = (groupType == GroupType.Creative ? -1 : 1) * stats.creativity;
+            if (d < 0)
+                d = 1 / (-d);
+            timeToGroupChange -= Time.deltaTime * d;
         }
+        if (timeToGroupChange <= 0)
+            FindGroup();
 
         if (GetDistanceFromGroup() > MIN_MOVE_DISTANCE)
         {
@@ -123,7 +131,13 @@ public class NPC : MonoBehaviour {
         {
             attentionLost += attentionLoseSpeed * Time.deltaTime;
             if (attentionLost > 1)
+            {
+                if(groupType == GroupType.Creative)
+                    FindObjectOfType<Stats>().AddCreativity();
+                else
+                    FindObjectOfType<Stats>().RemoveCreativity();
                 GoToPlayerGroup();
+            }
 
             Vector3 scale = transform.localScale;
             scale.x = Mathf.Abs(transform.localScale.x);
