@@ -1,21 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(GamePerspective))]
 public class CoinPickup : MonoBehaviour {
 
-    GameObject[] coins;
+    public float pickupDistance = 2;
 
-   void Start() {
-       coins = GameObject.FindGameObjectsWithTag("Coin");
+    private GamePerspective persp;
+    private GamePerspective playerPersp;
 
-   }
+    void Start()
+    {
+        persp = GetComponent<GamePerspective>();
+        playerPersp = GameObject.FindGameObjectWithTag("Player").GetComponent<GamePerspective>();
+    }
 
-   void FixedUpdate()
-   {
-       foreach (var coin in coins)
-       {
-           var distance = Vector3.Distance(transform.position, coin.transform.position);
-           Debug.Log(distance);
-       }
-   }
+    void Update()
+    {
+        if(GamePerspective.Distance(persp, playerPersp) <= pickupDistance)
+        {
+            FindObjectOfType<Stats>().AddCoin();
+            Destroy(gameObject);
+        }
+    }
 }
