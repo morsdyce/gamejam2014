@@ -4,18 +4,29 @@ using System.Collections;
 public class CoinPickup : MonoBehaviour {
 
     GameObject[] coins;
-
+    int i = 0;
    void Start() {
        coins = GameObject.FindGameObjectsWithTag("Coin");
-
+       
    }
 
-   void FixedUpdate()
+   void Update()
    {
+       
        foreach (var coin in coins)
        {
+           
            var distance = Vector3.Distance(transform.position, coin.transform.position);
-           Debug.Log(distance);
+           print(distance);
+           /*
+           if (coin != null)
+           {
+               
+
+               print(string.Format("Transform: {0} Coin: {1}", transform.position, coin.transform.position));
+           }*/
        }
+
+       //print(coins.Length);
    }
 }
