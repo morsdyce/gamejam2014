@@ -3939,10 +3939,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 1174752800}
   - 212: {fileID: 1174752799}
+  - 95: {fileID: 1174752795}
   - 114: {fileID: 1174752798}
   - 114: {fileID: 1174752797}
   - 114: {fileID: 1174752796}
-  - 95: {fileID: 1174752795}
   - 114: {fileID: 1174752794}
   m_Layer: 0
   m_Name: Player
@@ -4012,7 +4012,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkAnim: {fileID: 7400000, guid: 5bd4993061c93184db374db91ae20deb, type: 2}
   standAnim: {fileID: 7400000, guid: 3feb0bd59f1136d43b495b28bab62e1d, type: 2}
+  climbAnim: {fileID: 7400000, guid: 83b4562d45008a7408259cbc0abbd14c, type: 2}
   speed: 4
+  wallClimbDistance: .400000006
 --- !u!114 &1174752798
 MonoBehaviour:
   m_ObjectHideFlags: 0

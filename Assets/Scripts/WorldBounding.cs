@@ -20,6 +20,8 @@ public class WorldBounding : MonoBehaviour {
             persp.SetPosition(persp.X, MAX_Z);
         if (persp.Z < MIN_Z)
             persp.SetPosition(persp.X, MIN_Z);
+        if (persp.height > 22)
+            persp.SetPosition(persp.X, persp.Z, 22);
 	}
 
 }

@@ -5,17 +5,29 @@ public class GamePerspective : MonoBehaviour {
 
     private Vector3 pos;
     public float yRatio = 1;
+    private float _height = 0;
 
     void Start()
     {
         pos = new Vector3(/*transform.localPosition.x, transform.localPosition.y, transform.localPosition.z*/);
         SetPosition(transform.localPosition.x, transform.localPosition.y);
+        _height = 0;
     }
 
-    public void SetPosition(float x, float z, float height = 0)
+    public void SetPosition(float x, float z)
     {
         pos.x = x;
         pos.z = z;
+        pos.y = pos.z + height;
+
+        transform.localPosition = pos;
+    }
+
+    public void SetPosition(float x, float z, float height)
+    {
+        pos.x = x;
+        pos.z = z;
+        _height = height;
         pos.y = pos.z + height;
 
         transform.localPosition = pos;
@@ -33,12 +45,12 @@ public class GamePerspective : MonoBehaviour {
 
     public float height
     {
-        get { return pos.y; }
+        get { return _height; }
     }
 
     public void Move(float x, float z, float height = 0)
     {
-        SetPosition(pos.x + x * Time.deltaTime, pos.z + z * Time.deltaTime * yRatio + height * Time.deltaTime);
+        SetPosition(pos.x + x * Time.deltaTime, pos.z + z * Time.deltaTime * yRatio, _height + height * Time.deltaTime);
     }
 
     public static float Distance(GamePerspective p1, GamePerspective p2)

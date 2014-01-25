@@ -35,6 +35,8 @@ public class CameraFollowScript : MonoBehaviour {
 
         if (camPos.y < 0)
             camPos.y = 0;
+        if (camPos.y > 23)
+            camPos.y = 23;
 
         transform.position = camPos;
 	}
