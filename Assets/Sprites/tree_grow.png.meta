@@ -1,0 +1,859 @@
+fileFormatVersion: 2
+guid: 383c8bc79776ad041af2ccbf415b2386
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: tree_grow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2880
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2880
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2880
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2880
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2880
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2880
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2880
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2880
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_9
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2880
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2520
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2520
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_13
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2520
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_14
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2520
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_15
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2520
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_16
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2520
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_17
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2520
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_18
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2520
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_19
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2520
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2160
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2160
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_23
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2160
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_24
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2160
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_25
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2160
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_26
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2160
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_27
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2160
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_28
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2160
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_29
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2160
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_31
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1800
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_32
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1800
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_33
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1800
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1800
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_35
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1800
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_36
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1800
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_37
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1800
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_38
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1800
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_39
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1800
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_41
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1440
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_42
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1440
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_43
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1440
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_44
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1440
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_45
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1440
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_46
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1440
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_47
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1440
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_48
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1440
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_49
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1440
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_51
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1080
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_52
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1080
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_53
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1080
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_54
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1080
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_55
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1080
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_56
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1080
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_57
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1080
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_58
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1080
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_59
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1080
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_61
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 720
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_62
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 720
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_63
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 720
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_64
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 720
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_65
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 720
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_66
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 720
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_67
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 720
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_68
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 720
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_69
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 720
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_71
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 360
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_72
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 360
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_73
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 360
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_74
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 360
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_75
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 360
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_76
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 360
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_77
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 360
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_78
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 360
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_79
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 360
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_81
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_82
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_83
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_84
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_85
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_86
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_87
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_88
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: tree_grow_89
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 250
+        height: 360
+      alignment: 7
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
