@@ -458,11 +458,13 @@ GameObject:
   - 4: {fileID: 367722627}
   - 212: {fileID: 367722626}
   - 95: {fileID: 367722625}
-  - 114: {fileID: 367722624}
   - 114: {fileID: 367722629}
+  - 114: {fileID: 367722630}
   - 114: {fileID: 367722628}
+  - 114: {fileID: 367722624}
+  - 114: {fileID: 367722631}
   m_Layer: 0
-  m_Name: squid_0
+  m_Name: Squid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -550,6 +552,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yRatio: 1
+--- !u!114 &367722630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 367722623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cba8526591eee646900301bf5b1ad99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &367722631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 367722623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d753b75d37741d047b782d25686f29d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &387793868
 GameObject:
   m_ObjectHideFlags: 0
