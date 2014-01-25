@@ -35,6 +35,8 @@ public class NPC : MonoBehaviour {
     public float minGroupChangeTime = 8;
     float timeToGroupChange;
 
+    private Stats stats;
+
     void Start()
     {
         playerPersp = GameObject.FindGameObjectWithTag("Player").GetComponent<GamePerspective>();
@@ -46,6 +48,8 @@ public class NPC : MonoBehaviour {
         anim.Play(walkAnim.name);
         
         attentionLost = 0;
+
+        stats = FindObjectOfType<Stats>();
 
         FindGroup();
     }
@@ -77,12 +81,17 @@ public class NPC : MonoBehaviour {
         if (timeToOffsetChange <= 0)
             SetParentGroup(parentGroup);
 
-        if(parentGroup.groupType != GroupType.Player)
-        {
+        if (parentGroup.groupType != GroupType.Player)
             timeToGroupChange -= Time.deltaTime;
-            if (timeToGroupChange <= 0)
-                FindGroup();
+        else
+        {
+            float d = (groupType == GroupType.Creative ? -1 : 1) * stats.creativity;
+            if (d < 0)
+                d = 1 / (-d);
+            timeToGroupChange -= Time.deltaTime * d;
         }
+        if (timeToGroupChange <= 0)
+            FindGroup();
 
         if (GetDistanceFromGroup() > MIN_MOVE_DISTANCE)
         {
