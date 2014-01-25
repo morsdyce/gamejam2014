@@ -80,7 +80,6 @@ public class NPC : MonoBehaviour {
         if(parentGroup.groupType != GroupType.Player)
         {
             timeToGroupChange -= Time.deltaTime;
-            print(timeToGroupChange);
             if (timeToGroupChange <= 0)
                 FindGroup();
         }
@@ -123,7 +122,13 @@ public class NPC : MonoBehaviour {
         {
             attentionLost += attentionLoseSpeed * Time.deltaTime;
             if (attentionLost > 1)
+            {
+                if(groupType == GroupType.Creative)
+                    FindObjectOfType<Stats>().AddCreativity();
+                else
+                    FindObjectOfType<Stats>().RemoveCreativity();
                 GoToPlayerGroup();
+            }
 
             Vector3 scale = transform.localScale;
             scale.x = Mathf.Abs(transform.localScale.x);
