@@ -1,0 +1,706 @@
+fileFormatVersion: 2
+guid: 6477f13b4a3d7b246a6e70d61b53d693
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: soolam_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 6400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 6400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_7
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 6400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 5600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_12
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_14
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 5600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_16
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 5600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_17
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 4800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_20
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_21
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_23
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_24
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_25
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 4800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_26
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 4000
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_29
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4000
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_30
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4000
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_31
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4000
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_32
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4000
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_33
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4000
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_34
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 4000
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_35
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4000
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3200
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_38
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3200
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_39
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3200
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_40
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3200
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_41
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3200
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_42
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3200
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_43
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3200
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_44
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_47
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_48
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_49
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_50
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_51
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_52
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_53
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_55
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_56
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_57
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_58
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_59
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_60
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_61
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_62
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_64
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_65
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_66
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_67
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_68
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_69
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_70
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_71
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: soolam_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 800
+      alignment: 7
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
