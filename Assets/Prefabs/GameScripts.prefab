@@ -12,6 +12,11 @@ GameObject:
   - 114: {fileID: 11400000}
   - 114: {fileID: 11400004}
   - 114: {fileID: 11400006}
+  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400010}
+  - 114: {fileID: 11400012}
+  - 114: {fileID: 11400014}
+  - 114: {fileID: 11400016}
   m_Layer: 0
   m_Name: GameScripts
   m_TagString: Untagged
@@ -87,6 +92,86 @@ MonoBehaviour:
   spawnObject: {fileID: 100000, guid: 4b1703f67b6064746ab28f7a65e6cd83, type: 2}
   minSpawnTime: 5
   maxSpawnTime: 10
+  maxSpawndObjects: 9999999
+  creativeInfluence: 2
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f3c65cd407d33409edf64b0b528717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObject: {fileID: 100000, guid: ae6c7a51606b0b7468fb1ffac1b99f65, type: 2}
+  minSpawnTime: 5
+  maxSpawnTime: 15
+  maxSpawndObjects: 9999999
+  creativeInfluence: 2
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f3c65cd407d33409edf64b0b528717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObject: {fileID: 100004, guid: 408f5edabc23032488115888997f89f7, type: 2}
+  minSpawnTime: 5
+  maxSpawnTime: 15
+  maxSpawndObjects: 9999999
+  creativeInfluence: 2
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f3c65cd407d33409edf64b0b528717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObject: {fileID: 100000, guid: f2eb3fb98c43e8c49944e2c5e64b8565, type: 2}
+  minSpawnTime: 5
+  maxSpawnTime: 15
+  maxSpawndObjects: 9999999
+  creativeInfluence: 2
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f3c65cd407d33409edf64b0b528717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObject: {fileID: 100000, guid: 7cd9b8268ee28824da43393f9d2383c8, type: 2}
+  minSpawnTime: 5
+  maxSpawnTime: 15
+  maxSpawndObjects: 9999999
+  creativeInfluence: 2
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f3c65cd407d33409edf64b0b528717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObject: {fileID: 100000, guid: 9cc44c2167dd1bb4fa6921b189954d4f, type: 2}
+  minSpawnTime: 5
+  maxSpawnTime: 15
   maxSpawndObjects: 9999999
   creativeInfluence: 2
 --- !u!1001 &100100000
